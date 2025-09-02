@@ -1,0 +1,19 @@
+.sidebar{
+  max-width: 200px;
+  display: flex;
+  flex: 1;
+  background-color: rgb(107, 58, 180);
+
+  .folder-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+  .folder{
+    border-radius: 5px;
+    list-style-type: none;
+    padding: 5px;
+    cursor: pointer;
+  }
+}
+}
